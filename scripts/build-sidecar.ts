@@ -4,7 +4,9 @@ import { join } from "node:path";
 const release = process.argv.includes("--release");
 const targetFlag = process.argv.find((value) => value.startsWith("--target="));
 const target =
-  targetFlag?.slice("--target=".length) ?? (await Bun.$`rustc --print host-tuple`.text()).trim();
+  targetFlag?.slice("--target=".length) ??
+  process.env.TAURI_ENV_TARGET_TRIPLE ??
+  (await Bun.$`rustc --print host-tuple`.text()).trim();
 
 const supported = new Set(["x86_64-pc-windows-msvc", "x86_64-unknown-linux-gnu"]);
 
