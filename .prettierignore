@@ -1,0 +1,9 @@
+node_modules/
+.codex-pet-runs/
+.agents/
+.codex/
+dist/
+src-tauri/target/
+src-tauri/gen/
+src-tauri/binaries/
+backend-nim/nimcache/
