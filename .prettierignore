@@ -1,4 +1,5 @@
 node_modules/
+.nim_runtime/
 .codex-pet-runs/
 .agents/
 .codex/

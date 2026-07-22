@@ -2,7 +2,6 @@
 
 ![Main App Image when running](./public/images/demo.png)
 
-
 This is an app using Vue 3, Vite, Bun, Vue Router, Pinia,
 Tailwind CSS, Tauri v2, and a persistent Nim backend to demonstrate the ability of using Nim as a backend for Tauri
 
