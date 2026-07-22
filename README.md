@@ -172,6 +172,7 @@ After creating a repository from this template:
 ## Conclusion
 
 Q: Why can't you just use Rust for the backend?
+
 A: Nim
 
 Further reading: [GUIDEBOOK](GUIDEBOOK.md)
